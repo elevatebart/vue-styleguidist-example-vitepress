@@ -8,7 +8,7 @@ module.exports = {
   docsFolder: "examples/docgen-nuxt",
   componentsRoot: "components",
   components: "**/[A-Z]*.vue",
-  outDir: "./docs/en",
+  outDir: "./docs",
   defaultExamples: true,
   getDestFile: (componentPath, config) => {
     return path
